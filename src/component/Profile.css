@@ -1,0 +1,74 @@
+.profile {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  padding: 10px;
+  margin: 2%;
+  border-radius: 10px;
+  background-color: #eff1f7;
+  cursor: pointer;
+}
+.profile__namecontainer {
+  margin-left: 2%;
+  width: 100%;
+  padding: 0 0 0 10px;
+}
+.profile__image {
+  object-fit: contain;
+  width: 60px;
+}
+.profile__namecontainer > p > b {
+  margin-right: 1%;
+}
+
+.profile-without {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  padding: 10px;
+  margin: 2%;
+  cursor: pointer;
+}
+
+.status {
+  color: grey;
+  font-weight: 400;
+}
+
+.anonce {
+  color: black;
+  font-weight: 600;
+}
+
+.timesago {
+  color: grey;
+  margin-top: -2%;
+}
+
+.comment__container {
+  display: flex;
+
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-left: 30px;
+  padding: 20px;
+  color: gray;
+  align-items: center;
+  text-align: justify;
+  cursor: pointer;
+}
+
+.comment__container:hover {
+  background-color: #eff1f7;
+}
+.profile__nameandphoto {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.chess__image {
+  object-fit: contain;
+  width: 60px;
+}

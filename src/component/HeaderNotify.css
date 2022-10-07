@@ -1,0 +1,37 @@
+.headernotify__main {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headernotify__notify {
+  font-size: 20px;
+}
+
+.headernotify__notify > span {
+  margin-bottom: 4px;
+}
+
+.headernotify__number {
+  font-size: 12px;
+  background-color: #05317d;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  padding-bottom: 2px;
+  padding-top: 4px;
+}
+
+.headernotify__markasread {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.headernotify__markasread:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.headernotify__pofiles {
+}
